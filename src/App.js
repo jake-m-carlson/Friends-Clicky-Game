@@ -24,8 +24,19 @@ class App extends Component {
     // const friends = this.state.friends.filter(friend => friend.id !== id);
     // this.setState({ friends });
     console.log(id);
+    
+    // 3 line below shuffle images after onclick
+    this.setState({
+      friends: this.shuffle(this.state.friends)
+    });
+
+    // need else if statements to track if 
+    // img clicked was clicked one time before
+    // img clicked is first time
+    // scoring add in, in this place ?
+
   };
-  
+
   // shuffle function needed, then page did load life stage, call shuffle function
   shuffle = (array) => {
     var indexCurrent = array.length, temporaryValue, randomIndex;
@@ -42,18 +53,18 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar/>
-      <Wrapper>
-      {this.state.friends.map(friend => (
-        <FriendCard
-          clickedOn={this.clickedOn}
-          id={friend.id}
-          key={friend.id}
-          image={friend.image}
-          blurb={friend.blurb}
-        />
-      ))}
-      </Wrapper>
+        <Navbar />
+        <Wrapper>
+          {this.state.friends.map(friend => (
+            <FriendCard
+              clickedOn={this.clickedOn}
+              id={friend.id}
+              key={friend.id}
+              image={friend.image}
+              blurb={friend.blurb}
+            />
+          ))}
+        </Wrapper>
       </div>
     );
   }
