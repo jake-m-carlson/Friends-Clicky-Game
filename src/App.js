@@ -5,16 +5,38 @@ import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import friends from "./friends.json"
-// import './App.css';
 
 class App extends Component {
   state = {
     friends
   };
+
+  // componentDidMount lifecycle set
+  componentDidMount() {
+    this.setState({
+      friends: this.shuffle(this.state.friends)
+    }, () => {
+      console.log("Game starts and images are shuffled!")
+    });
+  };
+
+  clickedOn = id => {
+    // const friends = this.state.friends.filter(friend => friend.id !== id);
+    // this.setState({ friends });
+    console.log(id);
+  };
   
-  randomizeFriends = id => {
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    this.setState({ friends });
+  // shuffle function needed, then page did load life stage, call shuffle function
+  shuffle = (array) => {
+    var indexCurrent = array.length, temporaryValue, randomIndex;
+    while (0 !== indexCurrent) {
+      randomIndex = Math.floor(Math.random() * indexCurrent);
+      indexCurrent -= 1;
+      temporaryValue = array[indexCurrent];
+      array[indexCurrent] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
   };
 
   render() {
@@ -24,7 +46,7 @@ class App extends Component {
       <Wrapper>
       {this.state.friends.map(friend => (
         <FriendCard
-          removeFriend={this.removeFriend}
+          clickedOn={this.clickedOn}
           id={friend.id}
           key={friend.id}
           image={friend.image}
