@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/friends-1994-1559728356.jpg?resize=768:*",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/friends-jennifer-aniston-david-schwimmer-lisa-kudrow-courteney-cox-1568980626.jpg?crop=0.854xw:0.681xh;0.0663xw,0.193xh&resize=980:*",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/friends-1569840821.jpg?crop=1xw:0.8072048032021347xh;center,top&resize=768:*",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "https://nikpik123.files.wordpress.com/2014/04/aniston-friends-ba_1805859i.jpg",
+      "blurb": "haha",
+      "clicked": false
+        },
+    {
+      "id": 5,
+      "image": "https://i.pinimg.com/originals/57/a6/5f/57a65fd9a78f89ded7114683cdea7840.jpg",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "https://i.pinimg.com/originals/c5/fc/59/c5fc59785d2cefaf76f3f43233dc21f8.jpg",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "https://66.media.tumblr.com/820caa32f9a18a14ae745714fc68fe0e/tumblr_pwcutgmjBo1ra76moo1_540.gifv",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/13/1459529912-friends-joey-doesnt-share-food.gif?resize=480:*",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "https://i.pinimg.com/originals/1c/d3/62/1cd36241b58b7e3854035bf87e11b3d7.gif",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "https://media1.tenor.com/images/6bd0d2cc1a5dfc18ff55624ec5ae2aed/tenor.gif?itemid=12678474",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "image": "https://i0.wp.com/media1.giphy.com/media/eM16dA4eiatuyUs3rA/giphy.gif?resize=640%2C640&ssl=1&crop=1",
+      "blurb": "haha",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "image": "https://i0.wp.com/media1.giphy.com/media/UTMSRlRUffN505yQYn/giphy.gif?resize=640%2C640&ssl=1&crop=1",
+      "blurb": "haha",
+      "clicked": false
+    }
+  ]
+  
