@@ -9,7 +9,7 @@ function FriendCard(props) {
       </div>
       <div className="content">
         <ul><li>
-        <strong>Blurb:</strong> {props.blurb}
+        <strong>Quote:</strong> {props.blurb}
           </li></ul>
       </div>
     </div>
